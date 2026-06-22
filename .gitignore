@@ -1,0 +1,73 @@
+# Python, env, data files
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data
+data/raw/
+data/processed/
+data/models/
+*.csv
+*.json
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+.history
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.local.yml
+
+# Models
+*.h5
+*.pt
+*.onnx
+model_store/
+
+# Database
+*.db
+*.sqlite
+
+# MinIO data
+minio_data/
+
+# Grafana
+grafana_data/
