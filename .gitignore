@@ -80,3 +80,5 @@ grafana_data/
 !monitoring/grafana/dashboards/
 !monitoring/grafana/dashboards/*.json
 !frontend/package.json
+!notebooks/experiments/
+!notebooks/experiments/*.ipynb
