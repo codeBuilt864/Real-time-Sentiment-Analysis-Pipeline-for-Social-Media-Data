@@ -71,3 +71,14 @@ minio_data/
 
 # Grafana
 grafana_data/
+
+# Allow tracking of specific sample files, notebooks, dashboard JSONs, and frontend package.json
+!data/samples/
+!data/samples/*.csv
+!notebooks/
+!notebooks/*.ipynb
+!monitoring/grafana/dashboards/
+!monitoring/grafana/dashboards/*.json
+!frontend/package.json
+!notebooks/experiments/
+!notebooks/experiments/*.ipynb
